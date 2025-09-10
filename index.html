@@ -1,0 +1,459 @@
+<html class="scroll-smooth" lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>SMP Darussalam - Sistem Manajemen Rumah Data Guru</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Poppins:wght@500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-neutral-50 min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-30">
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between"
+      >
+        <div>
+          <h1 class="text-3xl font-poppins font-bold text-neutral-900">
+            SMP Darussalam
+          </h1>
+          <p class="text-sm text-neutral-600 mt-1 max-w-md">
+            Jl. Kolam Lama No.31, Wates, Watukosek, Kec. Gempol, Pasuruan, Jawa
+            Timur 61385
+          </p>
+        </div>
+        <div class="mt-3 sm:mt-0">
+          <img
+            alt="Logo sekolah SMP Darussalam, simple emblem with green and white colors representing education and local culture"
+            class="h-16 w-auto mx-auto sm:mx-0"
+            height="80"
+            src="smpdarussalam.png"
+            width="120"
+          />
+        </div>
+      </div>
+    </header>
+    <!-- Main Content -->
+    <main class="flex-grow max-w-7xl mx-auto px-6 py-10">
+      <!-- Headline Section -->
+      <section class="text-center mb-14">
+        <h2 class="text-4xl font-poppins font-extrabold text-neutral-900 mb-3">
+          Sistem Manajemen Rumah Data Guru
+        </h2>
+        <p class="text-neutral-700 max-w-xl mx-auto text-lg leading-relaxed">
+          Platform mudah dan bersih untuk mengelola data guru sesuai mata
+          pelajaran dengan fitur lengkap dan akses cepat.
+        </p>
+        <div class="mt-8 flex justify-center">
+          <img
+            alt="Ilustrasi sekolah dengan buku, alat tulis, dan suasana belajar yang ceria dan minimalis, menggunakan warna netral dan hijau muda yang menggambarkan semangat belajar"
+            class="rounded-lg shadow-lg w-full max-w-md"
+            height="250"
+            src="https://storage.googleapis.com/a1aa/image/616675e2-cb02-407d-e17e-63af69fafd7c.jpg"
+            width="400"
+          />
+        </div>
+      </section>
+      <!-- Guru Mata Pelajaran Section -->
+      <section>
+        <h3
+          class="text-2xl font-poppins font-semibold text-neutral-900 mb-8 text-center"
+        >
+          Daftar Guru Berdasarkan Mata Pelajaran
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Guru IPA -->
+          <article class="bg-white rounded-xl shadow-md p-6 flex flex-col">
+            <div class="flex items-center space-x-4 mb-5">
+              <img
+                alt="Potret guru IPA SMP Darussalam mengenakan pakaian formal dengan latar belakang kelas dan alat peraga sains"
+                class="rounded-full object-cover w-20 h-20"
+                height="80"
+                src="https://storage.googleapis.com/a1aa/image/cb3977cd-b675-47a5-f6dc-8d9c1dce2e84.jpg"
+                width="80"
+              />
+              <div>
+                <h4 class="font-poppins font-semibold text-lg text-neutral-900">
+                  Guru IPA
+                </h4>
+                <p class="text-neutral-600 text-sm">Ilmu Pengetahuan Alam</p>
+              </div>
+            </div>
+            <div class="mt-auto grid grid-cols-2 gap-4">
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-green-100 text-green-800 font-semibold hover:bg-green-200 transition"
+                href="https://drive.google.com/drive/folders/1IPA_ATP"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                ATP
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-green-100 text-green-800 font-semibold hover:bg-green-200 transition"
+                href="https://drive.google.com/drive/folders/1IPA_PROTA"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Prota
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-green-100 text-green-800 font-semibold hover:bg-green-200 transition"
+                href="https://drive.google.com/drive/folders/1IPA_PROMES"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Promes
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-green-100 text-green-800 font-semibold hover:bg-green-200 transition"
+                href="https://drive.google.com/drive/folders/1IPA_SILABUS"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Silabus
+              </a>
+            </div>
+          </article>
+          <!-- Guru IPS -->
+          <article class="bg-white rounded-xl shadow-md p-6 flex flex-col">
+            <div class="flex items-center space-x-4 mb-5">
+              <img
+                alt="Potret guru IPS SMP Darussalam mengenakan pakaian formal dengan latar belakang peta dunia dan buku sejarah"
+                class="rounded-full object-cover w-20 h-20"
+                height="80"
+                src="https://storage.googleapis.com/a1aa/image/d9ced48f-5bd8-49dc-39c1-f94f93dd7af5.jpg"
+                width="80"
+              />
+              <div>
+                <h4 class="font-poppins font-semibold text-lg text-neutral-900">
+                  Guru IPS
+                </h4>
+                <p class="text-neutral-600 text-sm">Ilmu Pengetahuan Sosial</p>
+              </div>
+            </div>
+            <div class="mt-auto grid grid-cols-2 gap-4">
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-yellow-100 text-yellow-800 font-semibold hover:bg-yellow-200 transition"
+                href="https://drive.google.com/drive/folders/1IPS_ATP"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                ATP
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-yellow-100 text-yellow-800 font-semibold hover:bg-yellow-200 transition"
+                href="https://drive.google.com/drive/folders/1IPS_PROTA"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Prota
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-yellow-100 text-yellow-800 font-semibold hover:bg-yellow-200 transition"
+                href="https://drive.google.com/drive/folders/1IPS_PROMES"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Promes
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-yellow-100 text-yellow-800 font-semibold hover:bg-yellow-200 transition"
+                href="https://drive.google.com/drive/folders/1IPS_SILABUS"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Silabus
+              </a>
+            </div>
+          </article>
+          <!-- Guru Matematika -->
+          <article class="bg-white rounded-xl shadow-md p-6 flex flex-col">
+            <div class="flex items-center space-x-4 mb-5">
+              <img
+                alt="Potret guru Matematika SMP Darussalam dengan latar belakang papan tulis berisi rumus matematika dan alat hitung"
+                class="rounded-full object-cover w-20 h-20"
+                height="80"
+                src="https://storage.googleapis.com/a1aa/image/5a855e62-a974-469b-a3ea-28e19a6446c7.jpg"
+                width="80"
+              />
+              <div>
+                <h4 class="font-poppins font-semibold text-lg text-neutral-900">
+                  Guru Matematika
+                </h4>
+                <p class="text-neutral-600 text-sm">Matematika</p>
+              </div>
+            </div>
+            <div class="mt-auto grid grid-cols-2 gap-4">
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-blue-100 text-blue-800 font-semibold hover:bg-blue-200 transition"
+                href="https://drive.google.com/drive/folders/1MAT_ATP"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                ATP
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-blue-100 text-blue-800 font-semibold hover:bg-blue-200 transition"
+                href="https://drive.google.com/drive/folders/1MAT_PROTA"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Prota
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-blue-100 text-blue-800 font-semibold hover:bg-blue-200 transition"
+                href="https://drive.google.com/drive/folders/1MAT_PROMES"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Promes
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-blue-100 text-blue-800 font-semibold hover:bg-blue-200 transition"
+                href="https://drive.google.com/drive/folders/1MAT_SILABUS"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Silabus
+              </a>
+            </div>
+          </article>
+          <!-- Guru Agama -->
+          <article class="bg-white rounded-xl shadow-md p-6 flex flex-col">
+            <div class="flex items-center space-x-4 mb-5">
+              <img
+                alt="Potret guru Agama SMP Darussalam mengenakan pakaian tradisional dengan latar belakang kitab suci dan suasana pesantren"
+                class="rounded-full object-cover w-20 h-20"
+                height="80"
+                src="https://storage.googleapis.com/a1aa/image/c0409603-61d5-4be5-2d0a-170657b8d58c.jpg"
+                width="80"
+              />
+              <div>
+                <h4 class="font-poppins font-semibold text-lg text-neutral-900">
+                  Guru Agama
+                </h4>
+                <p class="text-neutral-600 text-sm">Pendidikan Agama Islam</p>
+              </div>
+            </div>
+            <div class="mt-auto grid grid-cols-2 gap-4">
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-indigo-100 text-indigo-800 font-semibold hover:bg-indigo-200 transition"
+                href="https://drive.google.com/drive/folders/1AGM_ATP"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                ATP
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-indigo-100 text-indigo-800 font-semibold hover:bg-indigo-200 transition"
+                href="https://drive.google.com/drive/folders/1AGM_PROTA"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Prota
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-indigo-100 text-indigo-800 font-semibold hover:bg-indigo-200 transition"
+                href="https://drive.google.com/drive/folders/1AGM_PROMES"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Promes
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-indigo-100 text-indigo-800 font-semibold hover:bg-indigo-200 transition"
+                href="https://drive.google.com/drive/folders/1AGM_SILABUS"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Silabus
+              </a>
+            </div>
+          </article>
+          <!-- Guru Bahasa Indonesia -->
+          <article class="bg-white rounded-xl shadow-md p-6 flex flex-col">
+            <div class="flex items-center space-x-4 mb-5">
+              <img
+                alt="Potret guru Bahasa Indonesia SMP Darussalam dengan latar belakang buku dan papan tulis berisi kalimat bahasa Indonesia"
+                class="rounded-full object-cover w-20 h-20"
+                height="80"
+                src="https://storage.googleapis.com/a1aa/image/5e288ae2-cd70-4d76-8582-72c8fbcbc7f0.jpg"
+                width="80"
+              />
+              <div>
+                <h4 class="font-poppins font-semibold text-lg text-neutral-900">
+                  Guru Bahasa Indonesia
+                </h4>
+                <p class="text-neutral-600 text-sm">Bahasa Indonesia</p>
+              </div>
+            </div>
+            <div class="mt-auto grid grid-cols-2 gap-4">
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-red-100 text-red-800 font-semibold hover:bg-red-200 transition"
+                href="https://drive.google.com/drive/folders/1OA5Y2ktGAlraclXFj_XnAGG8iVUoWx5T?usp=sharing"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                ATP
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-red-100 text-red-800 font-semibold hover:bg-red-200 transition"
+                href="https://drive.google.com/drive/folders/1CAmPCU4NP-jWGIi4i98Is3TtJY8jXZR4?usp=sharing"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Prota
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-red-100 text-red-800 font-semibold hover:bg-red-200 transition"
+                href="https://drive.google.com/drive/folders/1Z8szUjQIpOt_ll4ltLDricJlIxlrk1s8?usp=sharing"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Promes
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-red-100 text-red-800 font-semibold hover:bg-red-200 transition"
+                href="https://drive.google.com/drive/folders/1WGi1W44hoe8eGo23NLnXe-CfATU2nzaW?usp=sharing"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Silabus
+              </a>
+            </div>
+          </article>
+
+          <!-- Guru BK -->
+          <article class="bg-white rounded-xl shadow-md p-6 flex flex-col">
+            <div class="flex items-center space-x-4 mb-5">
+              <img
+                alt="Potret guru BK SMP Darussalam dengan latar belakang ruang konseling dan buku psikologi"
+                class="rounded-full object-cover w-20 h-20"
+                height="80"
+                src="https://storage.googleapis.com/a1aa/image/059fff8c-e32e-4cb3-0713-f45c3383829a.jpg"
+                width="80"
+              />
+              <div>
+                <h4 class="font-poppins font-semibold text-lg text-neutral-900">
+                  Guru BK
+                </h4>
+                <p class="text-neutral-600 text-sm">Bimbingan Konseling</p>
+              </div>
+            </div>
+            <div class="mt-auto grid grid-cols-2 gap-4">
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-teal-100 text-teal-800 font-semibold hover:bg-teal-200 transition"
+                href="https://drive.google.com/drive/folders/1BK_ATP"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                ATP
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-teal-100 text-teal-800 font-semibold hover:bg-teal-200 transition"
+                href="https://drive.google.com/drive/folders/1BK_PROTA"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Prota
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-teal-100 text-teal-800 font-semibold hover:bg-teal-200 transition"
+                href="https://drive.google.com/drive/folders/1BK_PROMES"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Promes
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-teal-100 text-teal-800 font-semibold hover:bg-teal-200 transition"
+                href="https://drive.google.com/drive/folders/1BK_SILABUS"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Silabus
+              </a>
+            </div>
+          </article>
+          <!-- Guru TU -->
+          <article class="bg-white rounded-xl shadow-md p-6 flex flex-col">
+            <div class="flex items-center space-x-4 mb-5">
+              <img
+                alt="Potret guru Tata Usaha SMP Darussalam dengan latar belakang meja kerja dan dokumen administrasi sekolah"
+                class="rounded-full object-cover w-20 h-20"
+                height="80"
+                src="https://storage.googleapis.com/a1aa/image/56200ce5-ad6f-4d25-c6ba-c518ecb514bf.jpg"
+                width="80"
+              />
+              <div>
+                <h4 class="font-poppins font-semibold text-lg text-neutral-900">
+                  Guru TU
+                </h4>
+                <p class="text-neutral-600 text-sm">Tata Usaha</p>
+              </div>
+            </div>
+            <div class="mt-auto grid grid-cols-2 gap-4">
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-gray-200 text-gray-800 font-semibold hover:bg-gray-300 transition"
+                href="https://drive.google.com/drive/folders/1TU_ATP"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                ATP
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-gray-200 text-gray-800 font-semibold hover:bg-gray-300 transition"
+                href="https://drive.google.com/drive/folders/1TU_PROTA"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Prota
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-gray-200 text-gray-800 font-semibold hover:bg-gray-300 transition"
+                href="https://drive.google.com/drive/folders/1TU_PROMES"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Promes
+              </a>
+              <a
+                class="btn-feature block text-center py-2 rounded-md bg-gray-200 text-gray-800 font-semibold hover:bg-gray-300 transition"
+                href="https://drive.google.com/drive/folders/1TU_SILABUS"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Silabus
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-white border-t border-neutral-200 py-6 mt-16">
+      <div class="max-w-7xl mx-auto px-6 text-center text-neutral-600 text-sm">
+        © 2024 SMP Darussalam. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
